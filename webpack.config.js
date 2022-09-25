@@ -37,25 +37,15 @@ module.exports = {
             },
             {
                 test: /\.(png|svg|jpg|gif)$/,
-                use: [{
-                    loader: 'file-loader',
-                    options: {
-                        limit: 512,
-                        quality: 85
-                    }
-                }]
+                type: 'asset/resource',
             },
             {
                 test: /\.(woff|woff2|eot|ttf|otf)$/,
-                use: [
-                    'file-loader'
-                ]
+                type: 'asset/resource',
             },
             {
                 test: /\.(mov|mp4)$/,
-                use: [
-                    'file-loader'
-                ]
+                type: 'asset/resource',
             },
         ]
     },
