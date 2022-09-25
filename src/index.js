@@ -1,6 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from 'react-dom/client';
 import Master from "@components/Master.jsx";
 
+const container =  document.getElementById("root");
+const root = createRoot(container);
 
-ReactDOM.render(<Master />, document.getElementById("root"));
+root.render(<Master/>)
