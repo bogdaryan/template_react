@@ -15,7 +15,6 @@ module.exports = {
             '@components': projectRoot + '/src/components',
             '@styles': projectRoot + '/src/styles',
             '@assets': projectRoot + '/src/assets',
-            '@images&video': projectRoot + '/src/img_video',
         },
         extensions: [
             '.js', '.json', '.css', '.scss', '.sass',
