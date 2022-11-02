@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { ReactSVG } from "@/img_video";
-import '@/components/AppReact/app_react.scss'
 
 export default class AppReact extends React.PureComponent {
     render() {

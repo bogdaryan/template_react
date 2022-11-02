@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import '@styles/master.scss';
+import '@styles/index.scss'
 import AppReact from "@/components/AppReact/AppReact.jsx";
 
 
